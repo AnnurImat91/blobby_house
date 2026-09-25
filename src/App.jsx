@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, Wind, Ghost, Sparkles, ArrowDown } from 'lucide-react';
 
+import logos from './assets/img/logob_samping.png';
+import logop from './assets/img/logop.png';
+
+import Shop from './components/Shop';
+
 const BlobbySpace = () => {
   const [scrolled, setScrolled] = useState(false);
   const [hugCount, setHugCount] = useState(0);
@@ -52,8 +57,7 @@ const BlobbySpace = () => {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-sm border-b border-black py-4' : 'bg-transparent py-6'}`}>
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Ghost className="w-6 h-6" />
-            <span className="font-hand text-2xl tracking-wide">blobby.house</span>
+            <img src={logos} alt="Logo" className='w-40'/>
           </div>
           <a 
             href="https://instagram.com/blobby.house" 
@@ -208,10 +212,14 @@ const BlobbySpace = () => {
         </div>
       </section>
 
+      {/* Shop */}
+      <Shop />
+
       {/* Footer */}
       <footer className="bg-black text-white py-12 px-4">
         <div className="container mx-auto text-center">
           <Ghost className="w-8 h-8 mx-auto mb-4 animate-float" />
+          <img src={logop} alt="Blobby Logo" className="w-8 h-8 mx-auto mb-4 animate-float"/>
           <p className="font-hand text-2xl mb-6">Comes from your heart.</p>
           
           <div className="flex justify-center gap-6 font-body text-sm text-gray-400 mb-8">
@@ -222,6 +230,9 @@ const BlobbySpace = () => {
           
           <p className="text-xs text-gray-600 font-body">
             © {new Date().getFullYear()} Blobby House. Made with <Heart className="w-3 h-3 inline fill-gray-600 mx-1" /> for ghosts everywhere.
+          </p>
+          <p className="text-xs text-gray-600 font-body">
+            Support by <a href="https://annurimat.vercel.app/" target="_blank" rel="noopener noreferrer" className='text-white font-light border-b-1'> Annur Imat - Creative Developer </a>. All rights reserved.
           </p>
         </div>
       </footer>
