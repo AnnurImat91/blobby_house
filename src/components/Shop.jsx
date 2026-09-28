@@ -455,6 +455,11 @@ Apakah bisa diproses?`;
                     <p className="text-gray-500 max-w-lg mx-auto">
                         Pilih menu favoritmu, tambahkan ke keranjang, dan pesan langsung dengan mudah melalui WhatsApp.
                     </p>
+                    <div className="font-bold max-w-lg mx-auto">
+                        <p className="bg-red-300 text-red-500 px-3 py-1 rounded-full inline-block mt-4 text-sm">
+                            Menu Lengkap masih dalam masa update.
+                        </p>
+                    </div>
                 </div>
 
                 {/* Categories */}
