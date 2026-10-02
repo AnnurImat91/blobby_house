@@ -13,6 +13,9 @@ import {
 import cbMenu from "../assets/img/menu/cb_menu.png";
 import clfMenu from "../assets/img/menu/clf_menu.png";
 import mlfMenu from "../assets/img/menu/mlf_menu.jpg";
+import smMenu from "../assets/img/menu/sm_menu.jpg";
+import vlMenu from "../assets/img/menu/vl_menu.jpg";
+import alMenu from "../assets/img/menu/al_menu.jpg";
 
 
 // Mock data for our drinks menu
@@ -20,7 +23,7 @@ const MENU_DATA = [
     {
         id: 'd1',
         name: 'Cold Brew Coffee',
-        category: 'Coffee',
+        category: 'Black Coffee',
         price: 20000,
         description: 'A smooth and refreshing cold brew coffee, perfect for a hot day. Served over ice with a hint of sweetness.',
         image: cbMenu,
@@ -28,21 +31,48 @@ const MENU_DATA = [
     },
     {
         id: 'd2',
+        name: 'Aren Latte',
+        category: 'Latte',
+        price: 20000,
+        description: 'A rich and creamy latte made with our signature espresso and steamed milk, infused with natural aren flavor for a unique taste experience.',
+        image: alMenu,
+        tags: ['Best Seller', 'Sweet', 'Creamy']
+    },
+    {
+        id: 'd3',
         name: 'Coffee Latte',
         category: 'Latte',
         price: 21000,
-        description: 'Premium Japanese matcha whisked with fresh milk and a shot of our signature espresso.',
+        description: 'A classic coffee latte made with rich espresso and steamed milk, topped with a delicate layer of foam for a creamy finish.',
         image: clfMenu,
         tags: ['Creamy', 'Sweet']
     },
     {
-        id: 'd3',
+        id: 'd4',
         name: 'Matcha Latte',
         category: 'Latte',
         price: 22000,
         description: 'Premium Japanese matcha whisked with fresh milk and a shot of our signature espresso.',
         image: mlfMenu,
         tags: ['Earthy', 'Creamy', 'Sweet']
+    },
+    {
+        id: 'd5',
+        name: 'Strawberry Americano',
+        category: 'Black Coffee',
+        price: 19000,
+        description: 'A refreshing twist on the classic Americano, infused with natural strawberry flavor for a fruity kick.',
+        image: smMenu,
+        tags: ['Fresh', 'Bold', 'Black Coffee']
+    },
+    {
+        id: 'd6',
+        name: 'Vanilla Latte',
+        category: 'Latte',
+        price: 19000,
+        description: 'A smooth and creamy latte infused with natural vanilla flavor, topped with a light layer of foam for a sweet finish.',
+        image: vlMenu,
+        tags: ['Fresh', 'Creamy', 'Smooth']
     },
 ];
 
