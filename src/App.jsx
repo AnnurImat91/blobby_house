@@ -3,6 +3,7 @@ import { Heart, Wind, Ghost, Sparkles, ArrowDown } from 'lucide-react';
 
 import logos from './assets/img/logob_samping.png';
 import logop from './assets/img/logop.png';
+import ig from './assets/ig_bl.svg';
 
 import Shop from './components/Shop';
 
@@ -60,12 +61,21 @@ const BlobbySpace = () => {
             <img src={logos} alt="Logo" className='w-40'/>
           </div>
           <a 
+            href="#shop" 
+            style={{ scrollBehavior: 'smooth' }}
+            rel="noreferrer"
+            className="font-body text-sm font-semibold hover:underline decoration-2 underline-offset-4 flex items-center bg-black text-white px-4 py-2 rounded-full transition-all hover:scale-105 hover:shadow-lg"
+          >
+            Shop
+          </a>
+          <a 
             href="https://instagram.com/blobby.house" 
             target="_blank" 
             rel="noreferrer"
-            className="font-body text-sm font-semibold hover:underline decoration-2 underline-offset-4"
+            className="font-body text-sm font-semibold hover:underline decoration-2 underline-offset-4 flex items-center"
           >
-            Visit Instagram
+            <img src={ig} alt="Instagram" className="w-5 h-5 inline mr-1" />
+            Instagram
           </a>
         </div>
       </nav>
@@ -213,7 +223,9 @@ const BlobbySpace = () => {
       </section>
 
       {/* Shop */}
-      <Shop />
+      <div id="shop">
+        <Shop />
+      </div>
 
       {/* Footer */}
       <footer className="bg-black text-white py-12 px-4">
