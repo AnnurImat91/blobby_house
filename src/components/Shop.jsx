@@ -87,7 +87,7 @@ const formatRupiah = (number) => {
 };
 
 // WhatsApp Config - Replace with your actual number
-const WHATSAPP_NUMBER = "6289527422433"; // Example format: Country code + number (no +)
+const WHATSAPP_NUMBER = "6289529080827"; // Example format: Country code + number (no +)
 
 export default function App() {
     // --- State Management ---
