@@ -95,10 +95,10 @@ const WHATSAPP_NUMBER = "6289529080827"; // Example format: Country code + numbe
 const INITIAL_VOUCHERS = {
     // 20% Discount Vouchers (Example codes)
     'CXS8PJ': { type: 'percent', value: 20, used: false },
-    'ESZA5G': { type: 'percent', value: 20, used: false },
+
     '8U20NA': { type: 'percent', value: 20, used: false },
-    'A5IS2K': { type: 'percent', value: 20, used: false },
-    'QZPCVF': { type: 'percent', value: 20, used: false },
+
+ 
     'GLM27F': { type: 'percent', value: 20, used: false },
     'XK8GA1': { type: 'percent', value: 20, used: false },
     '6YF0V4': { type: 'percent', value: 20, used: false },
@@ -107,7 +107,7 @@ const INITIAL_VOUCHERS = {
     'N8NSPD': { type: 'percent', value: 20, used: false },
     'E7XWZP': { type: 'percent', value: 20, used: false },
 
-    'ROHGIU': { type: 'percent', value: 20, used: false },
+ 
     '3YHAN1': { type: 'percent', value: 20, used: false },
     'C26J0Y': { type: 'percent', value: 20, used: false },
     '0WSSVD': { type: 'percent', value: 20, used: false },
@@ -116,34 +116,34 @@ const INITIAL_VOUCHERS = {
     'KAE67B': { type: 'percent', value: 20, used: false },
     'FIIG17': { type: 'percent', value: 20, used: false },
     'XUISVA': { type: 'percent', value: 20, used: false },
-    'C8O1LU': { type: 'percent', value: 20, used: false },
+
     '4TVQRJ': { type: 'percent', value: 20, used: false },
-    'YQY2EV': { type: 'percent', value: 20, used: false },
+
 
     'I8EQUQ': { type: 'percent', value: 20, used: false },
-    'YYLEFR': { type: 'percent', value: 20, used: false },
+ 
     'KBBM2L': { type: 'percent', value: 20, used: false },
-    'LHOWGZ': { type: 'percent', value: 20, used: false },
+
     'NSPOPF': { type: 'percent', value: 20, used: false },
     'C8WYPM': { type: 'percent', value: 20, used: false },
     'P14A1E': { type: 'percent', value: 20, used: false },
     '0CZ538': { type: 'percent', value: 20, used: false },
     'AN86QW': { type: 'percent', value: 20, used: false },
     'XDYL8N': { type: 'percent', value: 20, used: false },
-    'S7IX1J': { type: 'percent', value: 20, used: false },
-    'F3EDML': { type: 'percent', value: 20, used: false },
+   
+    
     // 100% Free Vouchers (Example codes)
     'OTY4XD': { type: 'percent', value: 100, used: false },
     '6HOVOX': { type: 'percent', value: 100, used: false },
     'SXE4QL': { type: 'percent', value: 100, used: false },
     'HZAH0F': { type: 'percent', value: 100, used: false },
-    'U51OYM': { type: 'percent', value: 100, used: false },
+   
     'Z9MUZL': { type: 'percent', value: 100, used: false },
-    'BH675P': { type: 'percent', value: 100, used: false },
-    '6QQQAM': { type: 'percent', value: 100, used: false },
+   
+    
     'BW5WUI': { type: 'percent', value: 100, used: false },
     'FQF9FG': { type: 'percent', value: 100, used: false },
-    'QXG7SY': { type: 'percent', value: 100, used: false },
+   
     '5LVYZI': { type: 'percent', value: 100, used: false },
 };
 
